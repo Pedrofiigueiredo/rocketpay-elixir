@@ -1,11 +1,9 @@
 defmodule Rocketpay.Account do
-  # Traz as funcionalidades do Ecto para esse módulo
   use Ecto.Schema
   import Ecto.Changeset
 
   alias Rocketpay.User
 
-  # @primary_key -> variável do módulo para o id do tipo UUID
   @primary_key {:id, :binary_id, autogenerate: true}
   @foreign_key_type :binary_id
 
