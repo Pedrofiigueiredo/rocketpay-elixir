@@ -4,7 +4,7 @@ defmodule Rocketpay.NumbersTests do
 
   Red, Gren, Refactor!
   """
-  use ExUnit.Case
+  use ExUnit.Case, async: true
 
   alias Rocketpay.Numbers
 
